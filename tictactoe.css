@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Azonix;
+    src: url(Azonix.otf);
+}
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: Azonix;
+    text-align: center;
+    color: #e2620e;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+   color: #041141;
+}
+#restartButton{
+    background-color: #031447;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #984f41;
+    font-family: Azonix;
+}
